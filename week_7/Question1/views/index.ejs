@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Details</title>
+</head>
+<body>
+
+    <h1>Student Details</h1>
+
+    <p><strong>Name:</strong> <%= name %></p>
+    <p><strong>Branch:</strong> <%= branch %></p>
+    <p><strong>Age:</strong> <%= age %></p>
+
+    <% if (age >= 18) { %>
+        <p>Student is eligible.</p>
+    <% } else { %>
+        <p>Student is not eligible.</p>
+    <% } %>
+
+</body>
+</html>
